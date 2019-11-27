@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nf.demo.dao.EmployeeDao">
+    <select id="getAll" resultType="com.nf.demo.entity.Employee">
+        select id,salary,hiredate,gender,username,deptid from employee
+    </select>
+    <insert id="insert">
+        insert into employee(salary,hiredate,gender,username,deptid)
+        values(#{salary},#{hiredate},#{gender},#{username},#{deptid});
+    </insert>
+</mapper>

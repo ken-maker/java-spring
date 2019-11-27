@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch01fileupload2" />
+        <module name="ch01fileupload" />
+        <module name="ch01-file-upload" />
+        <module name="ch02-ssm2" />
+        <module name="ch02-ssm1" />
+        <module name="dao" />
+        <module name="ch02ssm2" />
+        <module name="ch04-mvc-code" />
+        <module name="entity" />
+        <module name="ch03-servlet3" />
+        <module name="ch01-file-download" />
+        <module name="ch01-file-upload2" />
+        <module name="ch01-mvc-login-work" />
+        <module name="web" />
+        <module name="service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
